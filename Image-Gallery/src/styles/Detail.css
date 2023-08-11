@@ -1,0 +1,43 @@
+.loader{
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.details-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #042e5e;
+    border: 3px solid grey;
+    padding: 20px;
+}
+
+.image-wrapper{
+    height: 350px;
+    width: 500px;
+}
+
+.image-wrapper img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.details-wrapper p{
+    color: whitesmoke;
+    margin-top: 15px;
+}
+
+@media screen and (max-width:768px) {
+    .details-wrapper{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .image-wrapper{
+        width: 95%;
+    }
+}
