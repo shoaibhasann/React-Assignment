@@ -16,7 +16,7 @@ To run the project locally, follow these steps:
 1. **Clone the repository:**
 
 
-   git clone <repository-url>
+   git clone https://github.com/shoaibhasann/React-Assignment.git
    
 
 2. **Navigate to the project directory:**
