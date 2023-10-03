@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.avatar {
+  position: relative;
+  display: inline-block;
+  margin: 18px auto;
+}
+
+.avatar img {
+  max-width: 100%;
+  height: auto;
+}
+
+.badge {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  background-color: #007acc;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 0 0 5px 0;
+  font-size: 18px;
+}
+
+p {
+  font-size: 25px;
+  color: #ff6b6b;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+  input {
+    font-size: 14px;
+  }
+  img {
+    margin-top: 10px;
+  }
+  p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+}
